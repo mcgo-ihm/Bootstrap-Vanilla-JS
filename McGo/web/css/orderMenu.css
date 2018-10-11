@@ -1,0 +1,19 @@
+.top-bar{
+    background-color: #1E293D;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo-div{
+    height: 75px;
+}
+
+.logo{
+    font-family: cursive;
+    font-size: 45;
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+    color: wheat;
+}
