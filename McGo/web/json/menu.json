@@ -1,0 +1,24 @@
+[{
+    "menuId":1,
+    "menu":[
+    {"productId":1, "name": "Beef BBQ Burger", "price":3.5, 
+        "description": "Découvrez une recette généreuse et des ingrédients de qualité : de la viande charolaise, des oignons rouges, de la sauce barbecue, du cheddar, le tout dans un pain shiny. ", 
+        "img":"../img/hambuerger"},
+    {"productId":2, "name": "Wrap Chèvre", "price":3.7, 
+        "description": "Deux chèvres croustillants et chauds, une sauce onctueuse, des oignons frits, des rondelles de tomates, de la salade, le tout enveloppé dans une galette de blé. ",
+        "img":"../img/hambuerger"},
+    {"productId":3, "name": "La Boîte à Partager", "price":7.0, 
+        "description": "Venez partager entre amis ou en famille la Boîte à partager avec 3 Wings de poulet Label Rouge, 3 Chicken Sticks et 6 Chicken McNuggets™ accompagnée de 3 sauces au choix.",
+        "img":"../img/hambuerger"},
+    {"productId":4, "name": "La Salade Summer Veggie", "price": 3.0, 
+        "description": "Une délicieuse salade estivale et végétarienne avec ses galettes panées aux légumes 100% français, son duo de poivrons jaunes et rouges confits, son mélange de choux rouge et blanc origine Normandie, ses dés de fromage de brebis, ses tomates fraîches et son mélange de salades.",
+        "img":"../img/hambuerger"},
+    {"productId":5, "name": "Le Double Latte", "price": 2.8, 
+        "description": "Un Expresso mélangé à une dose de lait chaud, et accompagné d'une mousse de lait presque aérienne. Une délicatesse inégalable.",
+        "img":"../img/hambuerger"},
+    {"productId":6, "name": "Le Cookie Fourré Chconuts", "price":1.5, 
+        "description": "Envie d'une pause gourmande ? Craquez pour le cookie fourré Choconuts, aux pépites de chocolat noir et aux morceaux de noisettes, fourré au chocolat et à la noisette.",
+        "img":"../img/hambuerger"}
+
+]
+}]

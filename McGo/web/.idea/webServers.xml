@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e5de9df3-a113-4253-a643-c26d92607e3d" name="Tomcat" url="http://localhost:8000/McGo">
+        <fileTransfer port="0" mountedRoot="C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\McGo" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

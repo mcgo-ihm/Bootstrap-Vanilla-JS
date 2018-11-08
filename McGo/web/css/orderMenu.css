@@ -2,7 +2,8 @@
     background-color: #1E293D;
     height: 75px;
     width: 100%;
-    position: fixed;
+    position: relative;
+    z-index: 100 100;
 }
 
 .logo-div{
@@ -10,10 +11,115 @@
 }
 
 .logo{
-    font-family: cursive;
-    font-size: 45;
+    font-family: serif;
     font-weight: bolder;
     margin: 0 auto;
-    text-align: center;
     color: wheat;
+    float: left;
+}
+
+#myCarousel{
+    margin-top:20px;
+}
+
+.menu-list{
+    
+    border-radius: 10px;
+    border: #1E293D solid 1px;
+}
+
+#map{
+    margin-top:30px;
+    position: relative;
+}
+
+.card-description{
+    font-size: 14px;
+    height: 130px;
+}
+
+.plat-img{
+    max-width: 100%
+}
+
+@media screen and (min-width: 601px) {
+    .menu-list {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top:10px;
+        padding-top:15px;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    a.btn.btn-primary.list_btn {
+        font-size: 16px;
+    }
+    .logo{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .detail-title{
+        font-size: 25px;
+    }
+    .detail-text{
+        font-size: 17px;
+    }
+    #map{
+        height:800px;
+    }
+    .menu-img{
+        max-width: 300px; 
+        max-height: 150px;
+        width:300px;
+        height: 150px
+    }
+}
+
+
+  
+@media screen and (max-width: 600px) {
+    .menu-list {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top:7px;
+        padding-top:7px;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+    }
+    a.btn.btn-primary.list_btn {
+        font-size: 10px;
+    }
+    .logo{
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .detail-title{
+        font-size: 20px;
+    }
+    .detail-text{
+        font-size: 15px;
+    }
+    .col-xs-5.menu-list{
+        padding-left:7px;
+        padding-right: 7px;
+    }
+    #map{
+        height: 400px;
+    }
+    .menu-img{
+        max-width: 150px; 
+        width:150px;
+        max-height: 85px;
+        height: 85px;
+    }
+}
+
+
+
+.myVideo{
+    height: 300px;
+}
+
+.plat-list{
+    padding-top:25px;
 }
